@@ -1,13 +1,13 @@
-TafelVanX = 1 
-WelkGetal = input("welk getal wil je de tafel van zien\n")
-def TafelGetal(InvoerGetal, TafelVanX):
-    while TafelVanX < 10:
+WelkGetal = int(input("welk getal wil je de tafel van zien\n"))
+def TafelGetal(InvoerGetal):
+    TafelVanX = 1 
+    while TafelVanX <= 10:
         tafelvan = InvoerGetal * TafelVanX
-        TafelVanX + 1 
-    return tafelvan
+        print(TafelVanX, ' x ' , InvoerGetal, ' = ' , tafelvan) 
+        TafelVanX = TafelVanX + 1 
 
     
         
     
-tafelvan = (WelkGetal)
-print(TafelGetal)
+
+TafelGetal(WelkGetal)
